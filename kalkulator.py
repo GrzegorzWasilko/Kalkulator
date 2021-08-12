@@ -15,7 +15,7 @@ def calculator (arg1,arg2) :
     elif choice == 2: #Odejmowaie
         if arg2>arg1:
         #logging.info('wynik ponizej zera')
-        exit(1) #upewnic sie czy to dobry wybór na błąd !
+         exit(1) #upewnic sie czy to dobry wybór na błąd !
     elif arg2<=arg1:
         result=arg1-arg2
         return result
@@ -26,7 +26,7 @@ def calculator (arg1,arg2) :
 
     elif choice == 4: #Dzielenie
         if arg2==0:
-        logging.info("pamiętaj cholero, nie dziel przez 0")
+          logging.info("pamiętaj cholero, nie dziel przez 0")
 
     elif arg2!=0:
         result=arg1/arg2
