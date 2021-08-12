@@ -25,12 +25,12 @@ def calculator (arg1,arg2) :
         return result
 
     elif choice == 4: #Dzielenie
-        if arg2==0:
+        if arg2==0:     # warunek nie działa , dzieli przez zero
           logging.info("pamiętaj cholero, nie dziel przez 0")
-
-    elif arg2!=0:
-        result=arg1/arg2
-        return result
+          exit(1)
+        elif arg2!=0:
+            result=arg1/arg2
+            return result
 #__________________________________________________________________
 if __name__== '__main__' :
 
